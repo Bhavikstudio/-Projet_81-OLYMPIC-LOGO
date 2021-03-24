@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Olympic Logo</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body_backgorund">
+
+<center>
+	<h1>Olympic Symbol</h1>
+	<canvas id="myCanvas" width="800" height="600" style="border:5px solid #000000;">
+	</canvas>
+	<br>
+	
+</center>
+
+
+<script src="C81main.js"></script>
+
+	
+	<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	strokeStyle ="black"
+	ctx.arc(250, 210, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.strokeStyle="blue"
+	ctx.arc(360, 210, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.strokeStyle="red"
+	ctx.arc(470, 210, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.strokeStyle="yellow"
+	ctx.arc(305, 280, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.beginPath();
+	ctx.strokeStyle="green"
+	ctx.arc(420, 275, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+	</script>
+</body>
+</html>
